@@ -20,23 +20,34 @@ This is a simple Java project designed to manage a blog system. The project incl
 - **Unit Tests**: Validates functionality by testing object creation, exception handling, and filtering logic.
 
 ## Project Structure
-/Assignment2_c0931040
-│── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── models
-│   │   │   │   ├── Person.java
-│   │   │   │   ├── BlogPost.java
-│   │   │   │   ├── Blog.java
-│   │   │   ├── Main.java
-│   ├── test
-│   │   ├── java
-│   │   │   ├── tests
-│   │   │   │   ├── PersonTest.java
-│   │   │   │   ├── BlogPostTest.java
-│   │   │   │   ├── BlogTest.java
-│
-│── person.json
-│── blogPosts.json
-│── pom.xml
+Assignment2_c0931040/ ├── src/ │ ├── main/java/ │ │ └── com/example/ │ │ ├── Main.java │ │ └── model/ │ │ ├── Blog.java │ │ ├── BlogPost.java │ │ └── Person.java │ └── test/java/ │ └── com/example/model/ │ ├── BlogPostTest.java │ ├── BlogTest.java │ └── PersonTest.java ├── blogPosts.json ├── person.json └── README.md
 
+---
+
+## How to Run the Project
+1. Ensure you have **JDK 8 or higher** installed.
+2. Open the project in your favorite Java IDE (e.g., Eclipse).
+3. Navigate to `Main.java` under `src/main/java/com/example/` and run the file.
+
+---
+
+## Running the Tests
+1. Make sure JUnit 5 is properly configured in the project.
+2. Right-click on any test file (e.g., `BlogTest.java`) and select **Run as JUnit Test**.
+3. Alternatively, run all tests by selecting the `src/test/java/` directory and running all tests together.
+
+---
+
+## Data Files
+- `blogPosts.json`: Sample data for `BlogPost`.
+- `person.json`: Sample data for `Person`.
+
+---
+
+## Dependencies
+- **JUnit 5** for testing.
+
+---
+
+## Author
+*Grishmkumar Rathod*
