@@ -1,0 +1,24 @@
+# Ignore build and IDE-related files
+target/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Ignore IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency files
+/node_modules
+/package-lock.json
+
+# Ignore compiled binaries
+bin/

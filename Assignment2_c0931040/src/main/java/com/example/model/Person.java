@@ -19,7 +19,7 @@ public class Person {
     private final Integer age;
     private final String gender;
 
-    private Person(String id, String firstName, String lastName, Integer age, String gender) {
+    public Person(String id, String firstName, String lastName, Integer age, String gender) {
         if (id == null) throw new IllegalArgumentException("ID cannot be null");
         if (firstName == null || firstName.isBlank()) throw new IllegalArgumentException("First name cannot be null or blank");
         if (lastName == null || lastName.isBlank()) throw new IllegalArgumentException("Last name cannot be null or blank");
