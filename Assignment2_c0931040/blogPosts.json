@@ -1,0 +1,22 @@
+[
+  {
+    "id": "101",
+    "authorId": "1",
+    "postContent": "This is Alice's first blog post."
+  },
+  {
+    "id": "102",
+    "authorId": "2",
+    "postContent": "Bob's thoughts on software development."
+  },
+  {
+    "id": "103",
+    "authorId": "1",
+    "postContent": "Alice shares another interesting story."
+  },
+  {
+    "id": "104",
+    "authorId": "3",
+    "postContent": "Charlie talks about technology trends."
+  }
+]
