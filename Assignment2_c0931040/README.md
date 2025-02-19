@@ -19,10 +19,35 @@ This is a simple Java project designed to manage a blog system. The project incl
 
 - **Unit Tests**: Validates functionality by testing object creation, exception handling, and filtering logic.
 
-## Project Structure
-Assignment2_c0931040/ ├── src/ │ ├── main/java/ │ │ └── com/example/ │ │ ├── Main.java │ │ └── model/ │ │ ├── Blog.java │ │ ├── BlogPost.java │ │ └── Person.java │ └── test/java/ │ └── com/example/model/ │ ├── BlogPostTest.java │ ├── BlogTest.java │ └── PersonTest.java ├── blogPosts.json ├── person.json └── README.md
+## Directory Structure
+```plaintext
+Assignment2_c0931040/
+├── src/
+│   ├── main/java/
+│   │   └── com/example/
+│   │       ├── Main.java
+│   │       └── model/
+│   │           ├── Blog.java
+│   │           ├── BlogPost.java
+│   │           └── Person.java
+│   └── test/java/
+│       └── com/example/model/
+│           ├── BlogPostTest.java
+│           ├── BlogTest.java
+│           └── PersonTest.java
+├── blogPosts.json
+├── person.json
+└── README.md
+```
 
 ---
+
+## How to Clone the Project
+1. Open a terminal or command prompt.
+2. Run the following command to clone the repository:
+   ```bash
+   git clone https://github.com/grathod49/Assignment2_c0931040.git
+
 
 ## How to Run the Project
 1. Ensure you have **JDK 8 or higher** installed.
